@@ -9,6 +9,13 @@ public class Method {
         System.out.println(fullName);
 
         sayHello();
+
+        //instance method
+        Method obj = new Method();
+        obj.plus(4,2,8);
+
+        //from otherClass
+        Othermethod.displayMessage(4);
     }
 
     //add method
@@ -24,6 +31,11 @@ public class Method {
     //sayHello void method
     static void sayHello(){
         System.out.println("Hello");
+    }
+
+    //instance method
+    void plus(int a, int b, int c){
+        System.out.println((a * b)-c);
     }
 }
 
