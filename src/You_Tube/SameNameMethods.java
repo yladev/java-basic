@@ -1,35 +1,43 @@
 package You_Tube;
 
 public class SameNameMethods {
+
     public static void main(String[] args) {
 
         Paper paper = new Paper();
-        takeNote("this is java", paper);
+        takeNote("This is java",paper);
         System.out.println(paper.message);
 
-        NoteBook notebook = new NoteBook();
-        takeNote("I am yla", notebook);
-        System.out.println(notebook.message);
+        NoteBook noteBook = new NoteBook();
+        takeNote("This is noteBook",noteBook);
+        System.out.println(noteBook.message);
+
 
 
     }
 
-    static void takeNote(String message, Paper paper){
+    static void takeNote(String message, Paper paper) {
         paper.message = message;
     }
 
-    static void takeNote(String message, NoteBook notebook){
-        notebook.message = message;
-
-
-
+    static void takeNote(String message, NoteBook noteBook){
+        noteBook.message = message;
     }
+
+
+
+
 }
 
-class Paper{
+
+
+//create Paper class
+class Paper {
     String message;
 }
 
-class NoteBook{
+//create NoteBook class
+class NoteBook {
     String message;
 }
+
