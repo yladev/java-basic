@@ -15,6 +15,10 @@ public class Test {
         int y = 14;
         System.out.println(x + y);
 
+        float j = 1.1f;
+        float a = 1.0f;
+        System.out.println(j * a);
+
         for (String s : args){
             System.out.println(s);
         }
