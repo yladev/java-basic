@@ -14,7 +14,7 @@ public class Assignment_Operator {
         int c = 30;
         c = 50;
         System.out.println(c);
-        
+
         int e = 10;
         e *= 40;
         System.out.println(e);
