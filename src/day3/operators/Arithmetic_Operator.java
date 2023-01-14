@@ -1,6 +1,6 @@
 package day3.operators;
 
-public class Arithmetic {
+public class Arithmetic_Operator {
     public static void main(String[] args) {
         int num1 = 5;
         int num2 = 3;
