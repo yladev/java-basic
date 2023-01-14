@@ -1,6 +1,6 @@
 package day1.lesson1;
 
-public class lesson1 {
+public class Lesson1 {
 
     public static void main(String[] args) {
         String name;//declaration

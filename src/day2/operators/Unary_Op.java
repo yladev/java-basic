@@ -1,4 +1,4 @@
-package day2.Operators;
+package day2.operators;
 
 public class Unary_Op {
     public static void main(String[] args) {
