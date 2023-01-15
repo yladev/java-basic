@@ -15,12 +15,15 @@ public class Shift_Operator {
         int d = c << 2;
         System.out.println(d); // Left Shift
 
-        int num1 = 2;
-        int num2 = num1 >> 2;
-        System.out.println(num2); // Right Shift
+        int e = 2;
+        int f = e >> 2;
+        System.out.println(f); // Right Shift
 
-        int number1 = 8;
-        int number2 =  number1 >>> 2;
-        System.out.println(number2); // Unsigned Right Shift
+        int g = 8;
+        int h =  g >>> 2;
+        System.out.println(h); // Unsigned Right Shift
+
+        int num1 = 1;
+        System.out.println(num1 >>> 2);
     }
 }
