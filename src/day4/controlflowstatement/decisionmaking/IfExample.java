@@ -7,10 +7,12 @@ public class IfExample {
         num1 = 10;
         num2 = 20;
 
+        // if(){};
         if (num1 < num2) {
             System.out.println("number one is greater than number two"); // statement
         }
 
+        // if(){} else{};
         if (num1 > num2) {
             System.out.println("number one is greater than number two");
         }
@@ -18,22 +20,22 @@ public class IfExample {
             System.out.println("number two is grater than number one");
         }
 
-        // if(){} else(){}.....else{}
+        // if(){} elseif(){}.....else{};
         String name = "Jason";
 
         if (name == "Andrew") {
-            System.out.println("this is Andrew");
+            System.out.println("he is Andrew");
         } else if (name == "Yan") {
-            System.out.println("this is Yan");
+            System.out.println("he is Yan");
         } else if (name == "Linn") {
-            System.out.println("this is Linn");
+            System.out.println("he is Linn");
         } else if (name == "Jason") {
-            System.out.println("this is Jason");
+            System.out.println("he is Jason");
         } else {
             System.out.println("invalid name");
         }
 
-        // if(){if(){}}
+        // if(){if(){}};3
         int a = 10;
         int b = 15;
         int c = 20;
@@ -43,6 +45,21 @@ public class IfExample {
             if (c > a) {
                 System.out.println("c is the greatest");
             }
+        }
+
+        int number1 = 20;
+        int number2 = 10;
+
+        if (number1 < number2) {
+            System.out.println("number1 is less than number2");
+        } else if (number1 <= number2) {
+            System.out.println("number1 is less than equal number2");
+        } else if (number1 <= number2) {
+            System.out.println("number1 is greater than equal to number2");
+        } else if (number1 == number2) {
+            System.out.println("number1 is equal to number2");
+        } else {
+            System.out.println("invalid number");
         }
     }
 
