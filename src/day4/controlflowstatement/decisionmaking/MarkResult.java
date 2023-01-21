@@ -3,17 +3,24 @@ package day4.controlflowstatement.decisionmaking;
 public class MarkResult {
     public static void main(String[] args) {
 
-        int mark = 0;
-        if( mark >= 75 && mark <= 100){
+        int mark1 = 100;
+        int mark2 = 75;
+        int mark3 = 60;
+        int mark4 = 40;
+
+        if (mark1 >= 75 && mark1 <= 100) {
             System.out.println("Distinction");
-        } else if (mark >= 60 && mark <= 75) {
+            System.out.println("Congratulation");
+        if (mark2 >= 60 && mark2 <= 75) {
             System.out.println("Credit");
-        } else if (mark >= 40 && mark <= 60) {
-            System.out.println("pass");
-        } else if (mark < 40) {
-            System.out.println("fail");
-        } else {
-            System.out.println("invalid mark");
+        }
+        if (mark3 >= 40 && mark3 <= 60) {
+            System.out.println("Pass");
+        }
+        else {
+            System.out.println("Fail");
+            System.out.println("Better luck next tie");
+        }
         }
     }
 }
