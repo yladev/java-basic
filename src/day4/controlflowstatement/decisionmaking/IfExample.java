@@ -9,12 +9,12 @@ public class IfExample {
 
         // if(){};
         if (num1 < num2) {
-            System.out.println("number one is greater than number two"); // statement
+            System.out.println("number two is greater than number one"); // statement
         }
 
         // if(){} else{};
         if (num1 > num2) {
-            System.out.println("number one is greater than number two");
+            System.out.println("number one is less than number two");
         }
         else {
             System.out.println("number two is grater than number one");
@@ -54,10 +54,12 @@ public class IfExample {
             System.out.println("number1 is less than number2");
         } else if (number1 <= number2) {
             System.out.println("number1 is less than equal number2");
-        } else if (number1 <= number2) {
-            System.out.println("number1 is greater than equal to number2");
+        } else if (number1 != number2) {
+            System.out.println("number1 is not equal number2");
         } else if (number1 == number2) {
             System.out.println("number1 is equal to number2");
+        } else if (number1 > number2) {
+            System.out.println("number1 is greater than number2");
         } else {
             System.out.println("invalid number");
         }
