@@ -62,32 +62,32 @@ public class ArrayExample2 {
         System.out.println(Num4[3][0]);
 
 
-//        // multidimensional array with for loop (numbers)
-//        int victor[][] = {
-//                {10, 20, 30, 40, 50},
-//                {60, 70, 80, 90, 100},
-//                {110, 120, 130, 140, 150},
-//                {160, 170, 180, 190, 200},
-//                {210, 220, 230, 240, 250},
-//        };
-//        for (int i = 0; i < victor.length; i++){
-//            for(int j = 0; j < victor.length; j++){
-//                System.out.println("Output ->" + victor[i][j]);
-//            }
-//        }
-//
-//        // multidimensional array with for loop (Test with String)
-//        String names[][] = {
-//                {"thuta", "yan", "zaw", "moe"},
-//                {"kaungkaung", "poe", "naing", "ei"},
-//                {"soe", "yin", "sweet", "mag"},
-//                {"yamin", "mahay thi", "daywi", "mama"}
-//        };
-//        for(int x = 0; x < names.length; x++){
-//            for(int y = 0; y < names.length; y++){
-//                System.out.println("output => " + names[x][y]);
-//            }
-//        }
+        // multidimensional array with for loop (numbers)
+        int victor[][] = {
+                {10, 20, 30, 40, 50},
+                {60, 70, 80, 90, 100},
+                {110, 120, 130, 140, 150},
+                {160, 170, 180, 190, 200},
+                {210, 220, 230, 240, 250},
+        };
+        for (int i = 0; i < victor.length; i++){
+            for(int j = 0; j < victor.length; j++){
+                System.out.println("Output ->" + victor[i][j]);
+            }
+        }
+
+        // multidimensional array with for loop (Test with String)
+        String names[][] = {
+                {"thuta", "yan", "zaw", "moe"},
+                {"kaungkaung", "poe", "naing", "ei"},
+                {"soe", "yin", "sweet", "mag"},
+                {"yamin", "mahay thi", "daywi", "mama"}
+        };
+        for(int x = 0; x < names.length; x++){
+            for(int y = 0; y < names.length; y++){
+                System.out.println("output => " + names[x][y]);
+            }
+        }
 
         String Students[][] = {
                 {"Andrew", "Steve", "Ayaya", "Billy", "Wang",},
