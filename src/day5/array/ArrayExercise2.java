@@ -2,7 +2,7 @@ package day5.array;
 
 import java.util.Arrays;
 
-public class ArrayExample2 {
+public class ArrayExercise2 {
     public static void main(String[] args) {
         // one dimensional array with initialization
         String Name1[] = {"Andrew", "Victor", "May", "San"};

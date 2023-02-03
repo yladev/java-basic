@@ -2,7 +2,7 @@ package day5.array;
 
 import java.util.Arrays;
 
-public class ArrayExample1 {
+public class ArrayExercise1 {
     public static void main(String[] args) {
         String ar[] = {"Yan", "Linn", "Aung", "Jason", "Andrew"};
         System.out.println(ar[2]);
