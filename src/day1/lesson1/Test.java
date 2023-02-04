@@ -5,7 +5,7 @@ public class Test {
     public static void main(String[] args) {
         int number1 = 2;
         int number2 = 15;
-        System.out.println(number1*number2);
+        System.out.println(number1 * number2);
 
         String firstName = "Jason";
         String lastName = "Andrew";
@@ -20,7 +20,7 @@ public class Test {
         System.out.println(j * a);
 
         for (String s : args){
-            System.out.println(s);
+            System.out.println("Fuck -> " + s);
         }
     }
 

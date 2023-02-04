@@ -5,7 +5,7 @@ public class Lesson1 {
     public static void main(String[] args) {
         String name;//declaration
         //Datatype variable=;
-        String name1="Jason Andrew";// Initialisation
+        String name1 = "Jason Andrew";// Initialisation
         Integer age = 45;
         Integer num1 = 30;
         Integer num2 = 30;
