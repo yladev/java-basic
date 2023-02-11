@@ -26,9 +26,7 @@ public class UserInput {
             int data = j.nextInt();
             numberOne[i] = data;
         }
-
         System.out.println(Arrays.toString(numberOne));
-
     }
 
 }
