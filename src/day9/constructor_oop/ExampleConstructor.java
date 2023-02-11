@@ -1,4 +1,4 @@
-package day9.constructor;
+package day9.constructor_oop;
 public class ExampleConstructor {
 
     public ExampleConstructor() {
