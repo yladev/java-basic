@@ -1,4 +1,4 @@
-package day12.abstraction;
+package day12.abstract_class;
 
 abstract  class A{
     abstract void doIt();

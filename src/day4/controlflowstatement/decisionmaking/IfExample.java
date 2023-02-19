@@ -64,5 +64,4 @@ public class IfExample {
             System.out.println("invalid number");
         }
     }
-
 }
