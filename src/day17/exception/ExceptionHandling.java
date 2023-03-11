@@ -28,7 +28,7 @@ public class ExceptionHandling {
 
             Scanner scanner = new Scanner(System.in);
             int in = scanner.nextInt();
-            System.out.println(in);git
+            System.out.println(in);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
