@@ -1,12 +1,11 @@
-package day15.String;
+package day15.string;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class SubString {
     public static void main(String[] args) {
         String name = "Yan Linn Aung";
-        System.out.println(name.substring(5));
+        System.out.println(name.substring(5)); // Delete String
 
         String[] str = name.split(" ");
         for (String s : str) {

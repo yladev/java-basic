@@ -1,4 +1,4 @@
-package day15.String;
+package day15.string;
 
 public class StringComparasion {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class StringComparasion {
 
         System.out.println("Code".equalsIgnoreCase("code"));
 
-        // String Pull
+        // String Pool
         String name = "Mg Mg";
         String name1 = "Mg Mg";
         System.out.println(name.hashCode());
