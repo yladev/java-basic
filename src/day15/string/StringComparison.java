@@ -1,6 +1,6 @@
 package day15.string;
 
-public class StringComparasion {
+public class StringComparison {
     public static void main(String[] args) {
         String a = "Andrew";
         String b = "andrew";
