@@ -7,7 +7,7 @@ class Ch9MatchJavaIdentifier {
 //        private static final String VALID = "Valid Java identifier";
 //        private static final String INVALID = "Not a valid Java identifier";
         private static final String VALID_IDENTIFIER_PATTERN
-                = "[0-9][A-Za-z](-|)[0-9]{1,4}";
+                = "[a-z]*[A-Z]+[a-zA-Z]*[0-9]+{8,}";
         public static void main (String[] args) {
             Scanner scanner = new Scanner(System.in);
             String str, reply;
