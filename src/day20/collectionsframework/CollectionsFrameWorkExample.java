@@ -1,10 +1,10 @@
-package day20.collectionframework;
+package day20.collectionsframework;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CollectionFrameWorkExample {
+public class CollectionsFrameWorkExample {
     // List
     // Set
     // Map
